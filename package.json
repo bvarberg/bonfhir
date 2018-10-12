@@ -1,0 +1,22 @@
+{
+  "name": "bonfhir",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bvarberg/bonfhir.git"
+  },
+  "keywords": [
+    "fhir"
+  ],
+  "author": "Byron Varberg <byron@byronvarberg.com> (https://www.byronvarberg.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bvarberg/bonfhir/issues"
+  },
+  "homepage": "https://github.com/bvarberg/bonfhir#readme"
+}
