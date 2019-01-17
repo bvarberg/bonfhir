@@ -4,7 +4,7 @@
   "description": "A client for interacting with FHIR resource servers",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --config jest.config.js"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,10 @@
   },
   "homepage": "https://github.com/bvarberg/bonfhir#readme",
   "devDependencies": {
-    "jest": "23.6.0"
+    "jest": "23.6.0",
+    "nock": "10.0.6"
   },
   "dependencies": {
-    "verror": "1.10.0"
+    "axios": "0.18.0"
   }
 }

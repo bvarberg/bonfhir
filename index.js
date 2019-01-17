@@ -1,8 +1,12 @@
 const FHIRClient = require('./src/FHIRClient');
 
 class Bonfhir {
-  static createClient() {
-    const client = new FHIRClient();
+  static createClient(options = {}) {
+    const serviceRootURL = options.serviceRootURL;
+
+    const client = new FHIRClient({
+      serviceRootURL,
+    });
 
     return client;
   }
