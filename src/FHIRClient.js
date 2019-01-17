@@ -1,12 +1,7 @@
-const HTTPSearcher = require('./search/HTTPSearcher');
-
 class FHIRClient {
   constructor(options = {}) {
     this._serviceRootURL = options.serviceRootURL || null;
-
-    this._searcher = options.searcher || new HTTPSearcher({
-      serviceRootURL: this.serviceRootURL,
-    });
+    this._searcher = options.searcher;
   }
 
   get searcher() { return this._searcher; }
